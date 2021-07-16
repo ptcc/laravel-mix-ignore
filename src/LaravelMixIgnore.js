@@ -39,11 +39,11 @@ class LaravelMixIgnore {
                 param = new RegExp(param);
             }
 
-            return arg => param.test(arg);
+            return param
 
         });
 
-        this.ignore.push(new webpack.IgnorePlugin({checkResource, checkContext}));
+        this.ignore.push(new webpack.IgnorePlugin({resourceRegExp:checkResource, contextRegExp:checkContext}));
 
         return this;
 
