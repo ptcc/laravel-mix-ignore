@@ -1,5 +1,5 @@
 {
-  "name": "laravel-mix-ignore",
+  "name": "laravel-mix6-ignore",
   "version": "2.0.0",
   "description": "Plugin for ignoring module(s) from being bundled with IgnorePlugin.",
   "main": "src/LaravelMixIgnore.js",
